@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 export const meta = () => {
   return [
-    { title: "Remix Auth Github" },
+    { title: "Remix Auth Google" },
     { name: "description", content: "Welcome to Remix!" }
   ];
 };
@@ -9,7 +9,7 @@ export const meta = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix Auth Github</h1>
+      <h1>Welcome to Remix Auth Google</h1>
       <ul>
         <li>
           <a

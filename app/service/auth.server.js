@@ -1,8 +1,8 @@
-import { GitHubStrategy } from "remix-auth-github";
 import { Authenticator } from "remix-auth";
+import { GoogleStrategy } from "remix-auth-google";
 import { sessionStorage } from "./session.server";
 
-const gitHubStrategy = new GitHubStrategy(
+const googleStrategy = new GoogleStrategy(
   {
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
@@ -18,4 +18,4 @@ const gitHubStrategy = new GitHubStrategy(
 );
 
 export const authenticator = new Authenticator(sessionStorage);
-authenticator.use(gitHubStrategy);
+authenticator.use(googleStrategy);

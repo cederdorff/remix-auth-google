@@ -6,7 +6,7 @@ export async function loader() {
 }
 
 export async function action({ request }) {
-  return authenticator.authenticate("github", request, {
+  return authenticator.authenticate("google", request, {
     successRedirect: "/protected"
   });
 }

@@ -1,5 +1,5 @@
 {
-  "name": "remix-auth-github",
+  "name": "remix-auth-google",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -17,7 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remix-auth": "^3.6.0",
-    "remix-auth-github": "^1.7.0"
+    "remix-auth-google": "^2.0.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.8.1",
